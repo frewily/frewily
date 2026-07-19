@@ -18,9 +18,9 @@
 
 > "ai时代艰难求生的萌新" ✨
 
-- 💻 **当前技能**: JavaSE JavaWeb SpringBoot MySQL
-- 📚 **学习中**: 数据结构、算法分析、redis...
-- 🎮 **兴趣爱好**: 二次元文化、技术探索、游戏
+- 💻 **当前技能**: Java SpringBoot MySQL Redis Python Langchain RAG agent开发···
+- 📚 **学习中**: 算法分析、flutter、开源项目...
+- 🎮 **兴趣爱好**: 二次元文化、技术探索
 
 
 
