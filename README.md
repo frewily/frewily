@@ -28,18 +28,6 @@
 
 ---
 
-## 📫 联系我
-
-<div align="center">
-
-[![个人网站](https://img.shields.io/badge/个人网站-frewily.top-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://frewily.top)
-[![GitHub](https://img.shields.io/badge/GitHub-frewily-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frewily)
-[![QQ邮箱](https://img.shields.io/badge/QQ邮箱-2994508531@qq.com-D14836?style=for-the-badge&logo=tencent-qq&logoColor=white)](mailto:2994508531@qq.com)
-
-</div>
-
----
-
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%" valign="top">
@@ -50,6 +38,18 @@
     </td>
   </tr>
 </table>
+
+---
+
+## 📫 联系我
+
+<div align="center">
+
+[![个人网站](https://img.shields.io/badge/个人网站-frewily.top-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://frewily.top)
+[![GitHub](https://img.shields.io/badge/GitHub-frewily-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frewily)
+[![QQ邮箱](https://img.shields.io/badge/QQ邮箱-2994508531@qq.com-D14836?style=for-the-badge&logo=tencent-qq&logoColor=white)](mailto:2994508531@qq.com)
+
+</div>
 
 ---
 
