@@ -22,8 +22,9 @@
 - 📚 **学习中**: 算法分析、flutter、开源项目...
 - 🎮 **兴趣爱好**: 二次元文化、技术探索
 
+---
 
-
+<img src="https://raw.githubusercontent.com/frewily/frewily/refs/heads/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Grid Snake Animation" />
 
 ---
 
@@ -36,6 +37,19 @@
 [![QQ邮箱](https://img.shields.io/badge/QQ邮箱-2994508531@qq.com-D14836?style=for-the-badge&logo=tencent-qq&logoColor=white)](mailto:2994508531@qq.com)
 
 </div>
+
+---
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.svg" alt="Metrics Left" width="100%">
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.svg" alt="Metrics Right" width="100%">
+    </td>
+  </tr>
+</table>
 
 ---
 
