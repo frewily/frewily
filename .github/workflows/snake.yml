@@ -17,10 +17,10 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          publish_branch: output
-          destination_dir: .
-          allow_empty_commit: false
+      - name: push to output branch
+        run: |
+          cd dist
+          git init
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="actions@github.com" commit -m "Update snake animation"
+          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:output
