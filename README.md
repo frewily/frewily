@@ -56,15 +56,6 @@
   <img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.svg" width="49%" alt="Interests metrics" />
 </div>
 
-## 📫 联系我
-
-<div align="center">
-
-<a href="https://frewily.top"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-frewily.top-FF6B9D?style=for-the-badge&logo=google-chrome&logoColor=white" alt="个人网站" /></a>
-<a href="https://github.com/frewily"><img src="https://img.shields.io/badge/GitHub-frewily-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-
-</div>
-
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=frewily&color=ff6b9d&style=flat-square&label=Profile+Views)
