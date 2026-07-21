@@ -1,24 +1,31 @@
+<img src="image/138888613_p0.png" width="318" alt="Profile illustration" align="right" />
+
 <div align="center">
+
+<p align="left"><em>
+  <br>
+  在代码与模型之间，把复杂的问题化作可以被使用的答案。<br>
+  Between code and models, I turn complex problems into useful answers.
+</em></p>
+<p align="right">&mdash;&mdash;&mdash; Frewily</p>
+
+</div>
 
 # 🌸 Hi, I'm Frewily
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+SC&weight=600&size=26&duration=3000&pause=1000&color=FF6B9D&background=00000000&center=true&vCenter=true&width=760&height=60&lines=Java+%E5%90%8E%E7%AB%AF+%7C+AI+%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E8%83%BD%E8%A7%A3%E5%86%B3%E7%9C%9F%E5%AE%9E%E9%97%AE%E9%A2%98%E7%9A%84+AI+%E5%BA%94%E7%94%A8" alt="Typing SVG" />
+_✨ Building practical products with **Java backend** and **AI engineering**. ✨_
+
+专注于 RAG、Agent 与 LLM 工程化，也持续学习算法、Flutter 和开源协作。热爱二次元文化与技术探索，期待用持续交付的作品认识更多同行。
+
+<sub><em>Nice to meet you! Let’s make ideas real, one commit at a time. ★</em></sub>
+
+<br clear="right" />
+
+<div align="center">
 
 <a href="https://frewily.top"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-frewily.top-FF6B9D?style=flat-square&logo=google-chrome&logoColor=white" alt="个人网站" /></a>
 <a href="https://github.com/frewily"><img src="https://img.shields.io/badge/GitHub-frewily-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 
-</div>
-
-## 👋 关于我
-
-> 在 AI 时代持续学习，把想法做成可运行的产品。✨
-
-- 🔭 专注于 **Java 后端** 与 **AI 应用开发**，尤其是 RAG、Agent 和 LLM 工程化。
-- 🌱 正在深入算法、Flutter 与开源协作。
-- 🎮 热爱二次元文化，也喜欢探索新技术。
-
-<div align="center">
-  <img src="image/138888613_p0.png" width="60%" alt="Profile illustration" />
 </div>
 
 ## 🧰 技术栈
