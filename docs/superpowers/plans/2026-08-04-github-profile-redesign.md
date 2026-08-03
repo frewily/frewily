@@ -99,7 +99,7 @@ sips -Z 700 .superpowers/build/chara.png --out .superpowers/build/chara-700.png
 - [ ] **步骤 1：编写 footer.svg**
 
 ```xml
-<svg viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thanks for visiting">
+<svg viewBox="0 0 1000 140" width="1000" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thanks for visiting">
   <defs>
     <linearGradient id="bgGradF" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1a1030"/>
@@ -111,7 +111,7 @@ sips -Z 700 .superpowers/build/chara.png --out .superpowers/build/chara-700.png
       <stop offset="50%" stop-color="#7ee0ff"/>
       <stop offset="100%" stop-color="#c792ff"/>
     </linearGradient>
-    <filter id="softGlowF" x="-60%" y="-60%" width="220%" height="220%">
+    <filter id="softGlowF" x="-5%" y="-600%" width="110%" height="1300%">
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
@@ -121,7 +121,7 @@ sips -Z 700 .superpowers/build/chara.png --out .superpowers/build/chara-700.png
   <circle cx="880" cy="36" r="1.5" fill="#c792ff" opacity="0.6"/>
   <circle cx="760" cy="104" r="1.2" fill="#ffffff" opacity="0.5"/>
   <rect x="180" y="69" width="640" height="2" rx="1" fill="url(#neonGradF)" filter="url(#softGlowF)"/>
-  <text x="500" y="52" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#7ee0ff" opacity="0.9">// thanks for visiting</text>
+  <text x="501.5" y="52" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#7ee0ff" opacity="0.9">// thanks for visiting</text>
 </svg>
 ```
 
