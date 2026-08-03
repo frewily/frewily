@@ -307,7 +307,7 @@ git commit -m "Add full-bleed hero header SVG with embedded illustration"
 - [ ] **步骤 2：编写尾部分片 `.superpowers/build/standee-tail.part`**
 
 ```xml
-" x="700" y="34" height="252" preserveAspectRatio="xMidYMid meet" clip-path="url(#charaClip)"/>
+" x="700" y="34" width="215" height="252" preserveAspectRatio="xMidYMid meet" clip-path="url(#charaClip)"/>
   <circle cx="904" cy="70" r="4" fill="#7ee0ff" filter="url(#softGlowS)"/>
   <circle cx="712" cy="248" r="3" fill="#c792ff" filter="url(#softGlowS)"/>
 </svg>
