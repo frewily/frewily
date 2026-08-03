@@ -35,6 +35,11 @@ jobs:
           plugin_lines: yes
           plugin_people: yes
           plugin_people_types: followers
+          config_css: |
+            svg { background: #0d1117; border-radius: 12px; }
+            text, tspan { fill: #c9d1d9; }
+            .field, .field svg { color: #7ee0ff; fill: #7ee0ff; }
+            a { color: #7ee0ff; }
 
   github-metrics-right:
     runs-on: ubuntu-latest
@@ -57,3 +62,8 @@ jobs:
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_sections: recently-played
           plugin_steam_recent_limit: 4
+          config_css: |
+            svg { background: #0d1117; border-radius: 12px; }
+            text, tspan { fill: #c9d1d9; }
+            .field, .field svg { color: #7ee0ff; fill: #7ee0ff; }
+            a { color: #7ee0ff; }
