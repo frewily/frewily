@@ -20,7 +20,7 @@
 | `assets/header-standee.svg` | 新建。Hero 备用 A 版（人物立绘），README 不引用 |
 | `assets/footer.svg` | 新建。页尾收尾带，README 引用 |
 | `README.md` | 重写。新页面结构 |
-| `.github/workflows/metrics.yml` | 修改。两个 job 注入深色 `config_css` |
+| `.github/workflows/metrics.yml` | 修改。两个 job 注入深色 `extras_css` |
 | `.superpowers/build/` | 临时目录（已 gitignore）。压缩图、SVG 分片等中间产物，不入库 |
 
 临时素材来源（已存在，可直接使用；若缺失则按任务 1 重新生成）：
@@ -344,37 +344,37 @@ git commit -m "Add standee hero variant as backup asset"
 ### 任务 5：metrics workflow 深色化
 
 **文件：**
-- 修改：`.github/workflows/metrics.yml`（两个 job 的 `with:` 块各加一行 `config_css`）
+- 修改：`.github/workflows/metrics.yml`（两个 job 的 `with:` 块各加一行 `extras_css`）
 
 - [ ] **步骤 1：给 `github-metrics-left` job 添加深色 CSS**
 
 在 `plugin_people_types: followers` 之后追加：
 
 ```yaml
-          config_css: |
+          extras_css: |
             svg { background: #0d1117; border-radius: 12px; }
             text, tspan { fill: #c9d1d9; }
             .field, .field svg { color: #7ee0ff; fill: #7ee0ff; }
-            a { color: #7ee0ff; }
+            a, a text, a tspan { fill: #7ee0ff; }
 ```
 
 - [ ] **步骤 2：给 `github-metrics-right` job 添加同样的深色 CSS**
 
-在 `plugin_steam_recent_limit: 4` 之后追加与上一步完全相同的 `config_css` 块。
+在 `plugin_steam_recent_limit: 4` 之后追加与上一步完全相同的 `extras_css` 块。
 
 - [ ] **步骤 3：验证 YAML 结构**
 
-运行：`grep -n "config_css" .github/workflows/metrics.yml`
+运行：`grep -n "extras_css" .github/workflows/metrics.yml`
 预期：输出 2 行，分别在两个 job 内
 
 - [ ] **步骤 4：Commit**
 
 ```bash
 git add .github/workflows/metrics.yml
-git commit -m "Dark theme for metrics SVGs via config_css"
+git commit -m "Dark theme for metrics SVGs via extras_css"
 ```
 
-说明：metrics 生成的 SVG 内部结构依插件而异，`config_css` 选择器可能需要按实际产出微调。线上验证在任务 7 进行；若产出仍是浅色背景，在 `config_css` 开头追加一条 `svg > rect:first-child { fill: #0d1117; }` 再重新触发 workflow。
+说明：metrics 生成的 SVG 内部结构依插件而异，`extras_css` 选择器可能需要按实际产出微调。线上验证在任务 7 进行；若产出仍是浅色背景，在 `extras_css` 开头追加一条 `svg > rect:first-child { fill: #0d1117; }` 再重新触发 workflow。
 
 ---
 
@@ -495,7 +495,7 @@ gh run list --workflow=metrics.yml --limit 2
 curl -s https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.svg | grep -c "0d1117"
 ```
 
-预期：输出 ≥ `1`。若为 `0`（仍是浅色背景）：按任务 5 说明在 `config_css` 开头追加 `svg > rect:first-child { fill: #0d1117; }`，commit + push，再用 `gh workflow run metrics.yml` 手动触发并重验。
+预期：输出 ≥ `1`。若为 `0`（仍是浅色背景）：按任务 5 说明在 `extras_css` 开头追加 `svg > rect:first-child { fill: #0d1117; }`，commit + push，再用 `gh workflow run metrics.yml` 手动触发并重验。
 
 - [ ] **步骤 4：请用户目检线上效果**
 

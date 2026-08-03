@@ -69,7 +69,7 @@
 
 ### 修改：`.github/workflows/metrics.yml`
 
-- 两个 job 均加 `config_css` 注入深色样式（底 `#0d1117`、浅色文字、青紫强调色），具体色值以 Action 实际产出效果微调
+- 两个 job 均加 `extras_css` 注入深色样式（底 `#0d1117`、浅色文字、青紫强调色），具体色值以 Action 实际产出效果微调
 - 产出文件名 `metrics.left.svg` / `metrics.right.svg` 不变，README 引用不变
 
 ### 修改：README 中 snake 引用
