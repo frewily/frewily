@@ -20,7 +20,7 @@ jobs:
           base: header, community, repositories, metadata
           config_timezone: Asia/Shanghai
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 15
@@ -56,6 +56,8 @@ jobs:
           plugin_anilist: yes
           plugin_anilist_user: frewily
           plugin_anilist_sections: favorites, characters
+          plugin_anilist_limit: 4
+          plugin_anilist_limit_people: 4
           plugin_anilist_shuffle: yes
           plugin_steam: yes
           plugin_steam_user: "76561199873735780"
