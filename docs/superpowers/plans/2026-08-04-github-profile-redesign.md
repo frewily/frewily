@@ -390,7 +390,7 @@ git commit -m "Dark theme for metrics SVGs via config_css"
 
 <img src="assets/header.svg" width="100%" alt="Frewily — Java 后端 · AI 应用开发者" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+SC&weight=600&size=26&duration=3000&pause=1000&color=7EE0FF&background=00000000&center=true&vCenter=true&width=760&height=60&lines=Java+%E5%90%8E%E7%AB%AF+%7C+AI+%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E8%83%BD%E8%A7%A3%E5%86%B3%E7%9C%9F%E5%AE%9E%E9%97%AE%E9%A2%98%E7%9A%84+AI+%E5%BA%94%E7%94%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=26&duration=3000&pause=1000&color=7EE0FF&background=00000000&center=true&vCenter=true&width=760&height=60&lines=Java+%E5%90%8E%E7%AB%AF+%7C+AI+%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E8%83%BD%E8%A7%A3%E5%86%B3%E7%9C%9F%E5%AE%9E%E9%97%AE%E9%A2%98%E7%9A%84+AI+%E5%BA%94%E7%94%A8" alt="Typing SVG" />
 
 <a href="https://frewily.top"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-frewily.top-0d1117?style=flat-square&logo=google-chrome&logoColor=7EE0FF" alt="个人网站" /></a>
 <a href="https://github.com/frewily"><img src="https://img.shields.io/badge/GitHub-frewily-0d1117?style=flat-square&logo=github&logoColor=C792FF" alt="GitHub" /></a>
