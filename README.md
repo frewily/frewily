@@ -49,11 +49,15 @@
   <img src="https://raw.githubusercontent.com/frewily/frewily/refs/heads/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Grid Snake Animation" />
 </picture>
 
-<table align="center">
-  <tr>
-    <td valign="middle" width="50%"><img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.svg" width="100%" alt="GitHub metrics" /></td>
-    <td valign="middle" width="50%"><img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.svg" width="100%" alt="Interests metrics" /></td>
-  </tr>
-</table>
+<div align="center">
+  <div style="display: flex; gap: 8px; align-items: stretch;">
+    <div style="flex: 1; background: #0d1117; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+      <img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.svg" width="100%" alt="GitHub metrics" />
+    </div>
+    <div style="flex: 1; background: #0d1117; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+      <img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.svg" width="100%" alt="Interests metrics" />
+    </div>
+  </div>
+</div>
 
 <img src="assets/footer.svg" width="100%" alt="Thanks for visiting" />
