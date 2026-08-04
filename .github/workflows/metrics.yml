@@ -36,7 +36,7 @@ jobs:
           plugin_people: yes
           plugin_people_types: followers
           plugin_habits: yes
-          plugin_habits_from: 500
+          plugin_habits_from: 200
           plugin_habits_days: 30
           extras_css: |
             svg { background: #0d1117; border-radius: 12px; }
@@ -103,7 +103,7 @@ jobs:
           plugin_people: yes
           plugin_people_types: followers
           plugin_habits: yes
-          plugin_habits_from: 500
+          plugin_habits_from: 200
           plugin_habits_days: 30
 
   github-metrics-right-light:
