@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Frewily — Java 后端 · AI 应用开发者" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg" />
+  <img src="assets/header.light.svg" width="100%" alt="Frewily — Java 后端 · AI 应用开发者" />
+</picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=26&duration=3000&pause=1000&color=7EE0FF&background=00000000&center=true&vCenter=true&width=760&height=60&lines=Java+%E5%90%8E%E7%AB%AF+%7C+AI+%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85;%E6%9E%84%E5%BB%BA%E8%83%BD%E8%A7%A3%E5%86%B3%E7%9C%9F%E5%AE%9E%E9%97%AE%E9%A2%98%E7%9A%84+AI+%E5%BA%94%E7%94%A8" alt="Typing SVG" />
 
@@ -56,4 +59,7 @@
   </tr>
 </table>
 
-<img src="assets/footer.svg" width="100%" alt="Thanks for visiting" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg" />
+  <img src="assets/footer.light.svg" width="100%" alt="Thanks for visiting" />
+</picture>
