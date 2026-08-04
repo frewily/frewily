@@ -69,33 +69,3 @@ jobs:
             text, tspan { fill: #c9d1d9; }
             .field, .field svg { color: #7ee0ff; fill: #7ee0ff; }
             a, a text, a tspan { fill: #7ee0ff; }
-
-  equalize-metrics-height:
-    needs: [github-metrics-left, github-metrics-right]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - name: Equalize metrics card heights
-        run: |
-          python3 - <<'PY'
-          import re
-
-          def svg_height(path):
-              with open(path) as f:
-                  content = f.read()
-              return int(re.search(r'<svg[^>]*height="(\d+)"', content).group(1))
-
-          target = max(svg_height("metrics.left.svg"), svg_height("metrics.right.svg"))
-          for path in ("metrics.left.svg", "metrics.right.svg"):
-              with open(path) as f:
-                  content = f.read()
-              content = re.sub(r'(<svg[^>]*height=")\d+(")', r"\g<1>%d\g<2>" % target, content, count=1)
-              with open(path, "w") as f:
-                  f.write(content)
-          PY
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Equalize metrics card heights [Skip GitHub Action]"
