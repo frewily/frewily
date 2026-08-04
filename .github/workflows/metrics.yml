@@ -35,7 +35,6 @@ jobs:
           plugin_lines: yes
           plugin_people: yes
           plugin_people_types: followers
-          plugin_habits: yes
           extras_css: |
             svg { background: #0d1117; border-radius: 12px; }
             text, tspan { fill: #c9d1d9; }
@@ -100,7 +99,6 @@ jobs:
           plugin_lines: yes
           plugin_people: yes
           plugin_people_types: followers
-          plugin_habits: yes
 
   github-metrics-right-light:
     runs-on: ubuntu-latest
