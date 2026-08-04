@@ -51,8 +51,8 @@
 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td valign="top" width="50%" style="padding: 0; border: none;"><img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.svg" width="100%" alt="GitHub metrics" /></td>
-    <td valign="top" width="50%" style="padding: 0 0 0 8px; border: none;"><img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.svg" width="100%" alt="Interests metrics" /></td>
+    <td valign="top" width="50%" style="padding: 0; border: none;"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.svg" /><img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.left.light.svg" width="100%" alt="GitHub metrics" /></picture></td>
+    <td valign="top" width="50%" style="padding: 0 0 0 8px; border: none;"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.svg" /><img src="https://raw.githubusercontent.com/frewily/frewily/main/metrics.right.light.svg" width="100%" alt="Interests metrics" /></picture></td>
   </tr>
 </table>
 
