@@ -33,7 +33,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_lines_skipped: frewily/everything-claude-code, frewily/N.E.K.O, frewily/openlist-modified
+          plugin_lines_skipped: frewily/everything-claude-code, frewily/n.e.k.o, frewily/openlist-modified
           plugin_people: yes
           plugin_people_types: followers
           extras_css: |
@@ -98,7 +98,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_lines_skipped: frewily/everything-claude-code, frewily/N.E.K.O, frewily/openlist-modified
+          plugin_lines_skipped: frewily/everything-claude-code, frewily/n.e.k.o, frewily/openlist-modified
           plugin_people: yes
           plugin_people_types: followers
 
