@@ -63,9 +63,8 @@ jobs:
           plugin_steam: yes
           plugin_steam_user: "76561199873735780"
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_sections: most-played, recently-played
+          plugin_steam_sections: recently-played
           plugin_steam_recent_games_limit: 4
-          plugin_steam_games_limit: 3
           extras_css: |
             svg { background: #0d1117; border-radius: 12px; }
             text, tspan { fill: #c9d1d9; }
@@ -123,6 +122,5 @@ jobs:
           plugin_steam: yes
           plugin_steam_user: "76561199873735780"
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_sections: most-played, recently-played
+          plugin_steam_sections: recently-played
           plugin_steam_recent_games_limit: 4
-          plugin_steam_games_limit: 3
